@@ -1,0 +1,51 @@
+# Build artifacts
+target/
+dist/
+**/*.so
+**/*.o
+**/*.a
+**/*.js
+**/*.d.ts
+!**/*.config.js
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & Keys - NEVER commit these
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+*.pem
+*.key
+*.p12
+*.pfx
+*keypair*
+*wallet*.json
+*wallet*.key
+*secret*
+*authority*.json
+*-wallet.json
+*-keypair.json
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Test artifacts
+test-ledger/
+.anchor/

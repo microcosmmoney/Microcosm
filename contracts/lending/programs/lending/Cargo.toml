@@ -1,0 +1,37 @@
+[package]
+name = "lending"
+version = "0.1.0"
+description = "Microcosm NFT Lending Protocol - Collateralized lending with Territory NFTs"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "lending"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+# Anchor 0.30.1 - verified working version
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+anchor-spl = { version = "0.30.1", features = ["token", "associated_token", "metadata"] }
+# Metaplex Token Metadata
+mpl-token-metadata = "4.1.2"
+
+# Pin crates to avoid edition2024 requirement (Solana platform-tools Cargo is 1.84)
+blake3 = "=1.7.0"
+
+# dev-dependencies removed to avoid version conflicts with anchor-lang 0.30.1
+# anchor-lang 0.30.1 uses solana-program 1.17.x
+# solana-sdk 2.1 requires incompatible curve25519-dalek version
+[dev-dependencies]
+tokio = { version = "1.36", features = ["full"] }
+
+[lints.rust]
+# Suppress cfg warnings from Anchor/Solana framework macros
+unexpected_cfgs = "allow"

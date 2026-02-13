@@ -1,0 +1,32 @@
+[package]
+name = "reincarnation"
+version = "0.1.0"
+description = "Microcosm MCC Reincarnation Protocol - MCC Buyback with USDC"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "reincarnation"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+# Anchor 0.30.1 - consistent with other contracts
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+# token_interface module is built into anchor-spl 0.30.1, no extra feature needed
+anchor-spl = "0.30.1"
+
+# Pin crates to avoid edition2024 requirement
+blake3 = "=1.7.0"
+
+[dev-dependencies]
+tokio = { version = "1.36", features = ["full"] }
+
+[lints.rust]
+unexpected_cfgs = "allow"

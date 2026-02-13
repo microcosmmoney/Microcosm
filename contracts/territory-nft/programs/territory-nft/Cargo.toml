@@ -1,0 +1,22 @@
+[package]
+name = "territory-nft"
+version = "0.1.0"
+description = "Microcosm Territory NFT - Station/Matrix/Sector/System NFT"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "territory_nft"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+anchor-spl = { version = "0.30.1", features = ["metadata"] }
+mpl-token-metadata = "4.1.2"
+blake3 = { workspace = true }
