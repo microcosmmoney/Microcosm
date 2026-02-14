@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 use anchor_lang::prelude::*;
 use anchor_spl::token_2022;
 use anchor_spl::token_interface::{Mint, TokenAccount, TokenInterface, CloseAccount, TransferChecked};

@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub const COLLECTION_SEED: &[u8] = b"territory_collection";
 
 pub const TERRITORY_NFT_SEED: &[u8] = b"territory_nft";

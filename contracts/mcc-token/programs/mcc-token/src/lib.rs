@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod constants;
 pub mod error;
 pub mod instructions;

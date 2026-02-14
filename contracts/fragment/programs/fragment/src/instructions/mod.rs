@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_config;
 pub mod fragmentize_nft;
 pub mod fragmentize_nft_v2;

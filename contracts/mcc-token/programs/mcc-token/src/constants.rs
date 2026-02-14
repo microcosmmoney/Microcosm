@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub const TOTAL_SUPPLY: u64 = 1_000_000_000_000_000_000;
 
 pub const DECIMALS: u8 = 9;

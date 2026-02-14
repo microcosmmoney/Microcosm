@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 #![allow(ambiguous_glob_reexports)]
 
 pub mod initialize_lending_pool;

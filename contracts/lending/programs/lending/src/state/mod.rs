@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod lending_pool;
 pub mod loan;
 pub mod nft_price;

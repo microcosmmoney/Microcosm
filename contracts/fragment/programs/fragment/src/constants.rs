@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 use anchor_lang::prelude::*;
 
 pub const FRAGMENT_CONFIG_SEED: &[u8] = b"fragment_config";

@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_token;
 pub mod initialize_mining_config;
 pub mod initialize_vaults;

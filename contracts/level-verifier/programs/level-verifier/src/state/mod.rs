@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod user_profile;
 pub mod verifier_config;
 

@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod collection;
 pub mod territory_nft;
 

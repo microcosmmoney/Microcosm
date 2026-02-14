@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 use anchor_lang::prelude::*;
 
 pub mod constants;

@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_auction_config;
 pub mod update_auction_config;
 pub mod create_auction;

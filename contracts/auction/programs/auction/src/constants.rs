@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 use anchor_lang::prelude::*;
 
 pub const AUCTION_CONFIG_SEED: &[u8] = b"auction_config";

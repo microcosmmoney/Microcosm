@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod mcd_config;
 pub mod mcd_whitelist;
 

@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_collection;
 pub mod mint_station_nft;
 pub mod mint_matrix_nft;

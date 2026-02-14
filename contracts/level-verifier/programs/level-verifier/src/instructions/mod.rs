@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_config;
 pub mod update_config;
 pub mod initialize_user_profile;

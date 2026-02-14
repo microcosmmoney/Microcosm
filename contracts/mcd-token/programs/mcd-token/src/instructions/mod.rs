@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_mcd;
 pub mod initialize_mcd_config;
 pub mod initialize_station_vault;

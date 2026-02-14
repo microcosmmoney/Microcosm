@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub const MCD_DECIMALS: u8 = 6;
 
 pub const MCD_CONFIG_SEED: &[u8] = b"mcd_config";

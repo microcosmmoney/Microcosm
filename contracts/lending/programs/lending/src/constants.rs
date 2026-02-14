@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub const LENDING_POOL_SEED: &[u8] = b"mcc_lending_pool";
 
 pub const POOL_VAULT_SEED: &[u8] = b"mcc_pool_vault";

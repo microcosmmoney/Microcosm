@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 use anchor_lang::prelude::*;
 use crate::constants::MAX_POOL_NAME_LEN;
 

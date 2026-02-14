@@ -1,3 +1,4 @@
+// AI-generated · AI-managed · AI-maintained
 pub mod initialize_pool;
 pub mod initialize_vaults;
 pub mod initialize_usdt_vault;
